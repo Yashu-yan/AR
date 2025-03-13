@@ -1,0 +1,14 @@
+<model-viewer src="火車模型  優化2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.006730833638111555m -0.02443636908213186m -0.27872315928916747m" data-normal="-0.44074478599168815m -0.04263127309009804m -0.8966195448326223m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">老式 火車模型</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
